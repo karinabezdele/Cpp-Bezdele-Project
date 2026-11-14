@@ -17,3 +17,5 @@ This project is managed using Git and GitHub.
 
 ## Author
 Karina Bezdele
+
+This project is used for Git practice.
