@@ -1,19 +1,19 @@
-C++ University Project
+# C++ University Project
 
-About:
+## About
 This repository contains my C++ university project, created as part of my studies.
 
-Technologies:
-C++
-Git
-GitHub
+## Technologies
+- C++
+- Git
+- GitHub
 
-Project Structure:
+## Project Structure
 bezdele (12).cpp — source code of the program.
 .gitignore — specifies files and directories ignored by Git.
 
-Version Control:
+## Version Control
 This project is managed using Git and GitHub.
 
-Author:
+## Author
 Karina Bezdele
