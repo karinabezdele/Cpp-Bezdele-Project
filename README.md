@@ -23,3 +23,4 @@ This change was made locally on my computer.
 New feature: Git branch practice.
 Second feature: Learning multiple commits.
 Third feature: Preparing for merge.
+Fourth feature: Working with multiple branches.
