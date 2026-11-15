@@ -59,6 +59,43 @@ void bubblesort (int mas[],int n){
     cout<<"\nApmainu skaits: "<<apm_kopa;
 }
 
+//bubblesort(no labas uz kreiso)
+void bubblesort2 (int mas[],int n){
+    int i,j,x;
+    int apm;
+    int sal = 0;
+    int apm_kopa = 0;
+    mas_izvads(mas,n);
+    for(j=0;j<n-1;j++){
+        cout<<"\nStep = "<<j+1;
+        apm = 0;
+    
+        for (i=n-1;i>j;i--){
+            sal++;
+            
+            if (mas[i] < mas[i-1]){
+            x = mas[i];
+            mas[i] = mas[i-1];
+            mas[i-1] = x;
+            apm++;
+            apm_kopa++;
+            
+            mas_izvads(mas,n);
+            cout<<endl;
+            }
+        }
+        
+        if (apm == 0){
+            cout<<"\nMasivs ir sakartots";
+            cout<<"\nSalidzinajumu skaits: "<<sal;
+            cout<<"\nApmainu skaits: "<<apm_kopa;
+            return;
+        }
+    }
+    cout<<"\nSalidzinajumu skaits: "<<sal;
+    cout<<"\nApmainu skaits: "<<apm_kopa;
+}
+
 //------------------------------------SHAKERSORT-----------------------------------------------
 void shakersort (int mas[],int n){ //no kreisas uz labo
     int L = 0;
@@ -174,8 +211,9 @@ int main(){
         //saraksts
         cout<<"\n\t\tSorting Algorithms";
         cout<<"\n 1. BubbleSort(no kr uz labo)";
-        cout<<"\n 2. ShakerSort (no kr uz labo)";
-        cout<<"\n 3. ShakerSort (no labas uz kreiso)";
+        cout<<"\n 2. BubbleSort(no labas uz kreiso)";
+        cout<<"\n 3. ShakerSort (no kr uz labo)";
+        cout<<"\n 4. ShakerSort (no labas uz kreiso)";
         cout<<"\n 0. Exit";
         cout<<"\nInput number: ";
         cin>>choice;
@@ -184,10 +222,13 @@ int main(){
             case 1: bubblesort(mas,n); 
             break;
             
-            case 2: shakersort(mas,n); 
+            case 2: bubblesort2(mas,n); 
             break;
             
-            case 3: shakersort2(mas,n); 
+            case 3: shakersort(mas,n); 
+            break;
+            
+            case 4: shakersort2(mas,n); 
             break;
             
             case 0: cout<<"\nExit"; break;
