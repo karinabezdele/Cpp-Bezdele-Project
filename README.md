@@ -19,3 +19,4 @@ This project is managed using Git and GitHub.
 Karina Bezdele
 
 This project is used for Git practice.
+This change was made locally on my computer.
