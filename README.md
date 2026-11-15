@@ -25,4 +25,4 @@ Second feature: Learning multiple commits.
 Third feature: Preparing for merge.
 Fourth feature: Working with multiple branches.
 
-!!!!!
+!
