@@ -1,3 +1,7 @@
 *.exe
 bin/
 obj/
+.vscode/
+program
+bezdele_kartosana
+nul
