@@ -13,7 +13,7 @@ bezdele (12).cpp — source code of the program.
 .gitignore — specifies files and directories ignored by Git.
 
 ## Version Control
-This project is managed using Git and GitHub.
+This project is developed as a university assignment.
 
 ## Author
 Karina Bezdele
