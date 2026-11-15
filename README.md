@@ -20,3 +20,4 @@ Karina Bezdele
 
 This project is used for Git practice.
 This change was made locally on my computer.
+New feature: Git branch practice.
