@@ -72,7 +72,6 @@ int main(){
     mas_izvads(mas, n);
     
     do {
-        system("cls"); //clear
         //saraksts
         cout<<"\n\t\tSorting Algorithms";
         cout<<"\n 1. BubbleSort(no kr uz labo)";
@@ -83,7 +82,6 @@ int main(){
         //alg.izvele
         switch(choice){
             case 1: bubblesort(mas,n); 
-            system("pause>>nul");
             break;
             
             case 0: cout<<"\nExit"; break;
@@ -92,8 +90,5 @@ int main(){
         }
     }
     while (choice!=0);
-    
-    
-    system("pause>>nul");
     return 0;
 }
